@@ -1,0 +1,2408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+    <link rel="stylesheet" href="css/precss.css" type="text/css">
+    <link rel="stylesheet" href="css/chart.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slick-theme.min.css">
+    <link rel="stylesheet" href="css/slick.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.min.css">
+    <link rel="stylesheet" href="css/leaflet.min.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="flex-block al-it-center js-between desktop-block">
+                <a href="/" class="logo-link">
+                    <img src="img/logo.png" alt="" class="logo-img">
+                </a>
+                <div class="dwns-block">
+                    <div class="dwn-container __lang">
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" id="dwnLang" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <span class="lang-flag uk-flag">
+
+                                </span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dwnLang">
+                                <li class="lang__dropdown-item">
+
+                                    <a href="" class="lang-select-link active">
+                                        <span class="lang-flag uk-flag">
+
+                                        </span>
+                                        <span class="country-name">
+                                            English
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="lang__dropdown-item">
+
+                                    <a href="" class="lang-select-link">
+                                        <span class="lang-flag us-flag">
+
+                                        </span>
+                                        <span class="country-name">
+                                            English (U.S)
+                                        </span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dwn-container __quantity">
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" id="dwnQuantity" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                $
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dwnQuantity">
+                                <div class="quantity__dropdown-item">
+                                    <a href="" class="quantity-select-link active">
+                                        <span class="quantity-icon">
+                                            $
+                                        </span>
+                                        <span class="quantity-name">
+                                            U.S. Dollars
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="quantity__dropdown-item">
+                                    <a href="" class="quantity-select-link "><span class="quantity-icon">
+                                            £
+                                        </span>
+                                        <span class="quantity-name">
+                                            British Pounds
+                                        </span></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-block mobile-block mobile-nav">
+                <button class="navToggleBtn">
+
+                </button>
+                <a href="" class="mobile-logo"><img src="img/mobile-logo.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+
+        <section class="search-section desktop-block">
+
+            <div class="container">
+
+                <form class="order-form">
+                    <div class="cities-wrap">
+                        <input id="citiesAutocompleteInput" type="text" class="cities-input" placeholder="Bruxelles">
+                        <div class="autocomplete-result-container">
+                            <div class="top-result-block">
+                                <i class="autocomplete-icons time-icon">
+
+                                </i>
+                                <div class="top-result-block__right-col">
+                                    <span class="result-list__item-span">
+                                        <em>Brussels,</em> Airport
+                                    </span>
+                                    <div class="short-info-block">
+                                        <span>Aug 11, 2019</span> - <span>Aug 12, 2019</span>, 2 <span>Guests</span>, 1
+                                        <span>Room</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="bottom-result-block">
+                                <ul class="autocomplete-result-list">
+                                    <li class="autocomplete-result-list__item">
+                                        <div class="result-list__item-wrap">
+                                            <i class="autocomplete-icons bed-icon">
+
+                                            </i>
+                                            <span class="result-list__item-span">
+                                                <em>Brussels,</em> Airport
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="autocomplete-result-list__item">
+                                        <div class="result-list__item-wrap">
+                                            <i class="autocomplete-icons geo-icon">
+
+                                            </i>
+                                            <span class="result-list__item-span">
+                                                <em>Brussels,</em> Airport, Zaventem, Flemish Brabant Province
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="autocomplete-result-list__item">
+                                        <div class="result-list__item-wrap">
+                                            <i class="autocomplete-icons geo-icon">
+
+                                            </i>
+                                            <span class="result-list__item-span">
+                                                <em>Brussels,</em> Airport, Zaventem, Flemish Brabant
+
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="autocomplete-result-list__item">
+                                        <div class="result-list__item-wrap">
+
+                                            <i class="autocomplete-icons geo-icon">
+
+                                            </i>
+                                            <span class="result-list__item-span">
+                                                <em>Brussels,</em> Airport, Zaventem
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <a class="deleteBtn" id="clearTextBtn" href="#">
+
+                        </a>
+                    </div>
+
+                    <div class="datepicker-wrap">
+                        <input type="text" id="from" class="datepicker-input" placeholder="ven. 21 juin">
+                    </div>
+                    <div class="datepicker-wrap">
+                        <input type="text" id="to" class="datepicker-input" placeholder="sam. 22 juin">
+                    </div>
+
+
+                    <div class="quantity-dropdown">
+                        <!-- <button class="dropdown-toggle count-dropdown-Btn" type="button" id="countBtn"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="quantity-guest-count">1</span> <span
+                                class="quantity-guest-span medium-span">Guest</span>,
+                            <span class="quantity-room-count">
+                                1
+                            </span>
+                            <span class="quantity-room-span medium-span">
+                                Room
+                            </span>
+                        </button> -->
+
+                        <button type="button" class="count-dropdown-Btn" data-toggle="modal" data-target="#countModal">
+                            <span class="quantity-guest-count">1</span> <span
+                                class="quantity-guest-span medium-span">Guest</span>,
+                            <span class="quantity-room-count">
+                                1
+                            </span>
+                            <span class="quantity-room-span medium-span">
+                                Room
+                            </span>
+                        </button>
+
+                        <div class="modal fade" id="countModal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog count-modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Guests and rooms</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <svg stroke="rgb(45, 139, 235" fill="rgb(45, 139, 235" stroke-width="0"
+                                                viewBox="0 0 24 24" size="24" height="24" width="24"
+                                                xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;">
+                                                <path
+                                                    d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                                                </path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="room-info-block">
+                                        <div class="room-info-container">
+                                            <div class="top-info-flex">
+                                                <span class="room-result-count">
+                                                    Room 1
+                                                </span>
+                                                <button class="delete-room-btn">
+                                                    Remove room
+                                                </button>
+                                            </div>
+
+                                            <ul class="count-list">
+                                                <li class="count-list__item">
+                                                    <span class="medium-span">
+                                                        Guests
+                                                    </span>
+                                                    <div class="count-btn-block">
+                                                        <input class="count-input" type="hidden" name="guests"
+                                                            value="1">
+                                                        <button data-action="decrease"
+                                                            class="stepper-Btn decreaseBtn disable stepper-Btn-guests"></button>
+                                                        <div class="stepper-value">1</div>
+                                                        <button data-action="increase"
+                                                            class="stepper-Btn increaseBtn stepper-Btn-guests"></button>
+                                                    </div>
+                                                </li>
+                                                <li class="count-list__item">
+                                                    <span class="medium-span">
+                                                        Rooms
+                                                    </span>
+                                                    <div class="count-btn-block">
+                                                        <input class="count-input" type="hidden" name="rooms" value="1">
+                                                        <button data-action="decrease"
+                                                            class="stepper-Btn stepper-Btn-rooms decreaseBtn disable"></button>
+                                                        <div class="stepper-value">1</div>
+                                                        <button data-action="increase"
+                                                            class="stepper-Btn stepper-Btn-rooms increaseBtn "></button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="room-info-container">
+                                            <div class="top-info-flex">
+                                                <span class="room-result-count">
+                                                    Room 2
+                                                </span>
+                                                <button class="delete-room-btn">
+                                                    Remove room
+                                                </button>
+                                            </div>
+
+                                            <ul class="count-list">
+                                                <li class="count-list__item">
+                                                    <span class="medium-span">
+                                                        Guests
+                                                    </span>
+                                                    <div class="count-btn-block">
+                                                        <input class="count-input" type="hidden" name="guests"
+                                                            value="1">
+                                                        <button data-action="decrease"
+                                                            class="stepper-Btn decreaseBtn disable stepper-Btn-guests"></button>
+                                                        <div class="stepper-value">1</div>
+                                                        <button data-action="increase"
+                                                            class="stepper-Btn increaseBtn stepper-Btn-guests"></button>
+                                                    </div>
+                                                </li>
+                                                <li class="count-list__item">
+                                                    <span class="medium-span">
+                                                        Rooms
+                                                    </span>
+                                                    <div class="count-btn-block">
+                                                        <input class="count-input" type="hidden" name="rooms" value="1">
+                                                        <button data-action="decrease"
+                                                            class="stepper-Btn stepper-Btn-rooms decreaseBtn disable"></button>
+                                                        <div class="stepper-value">1</div>
+                                                        <button data-action="increase"
+                                                            class="stepper-Btn stepper-Btn-rooms increaseBtn "></button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="room-info-container">
+                                            <div class="top-info-flex">
+                                                <span class="room-result-count">
+                                                    Room 2
+                                                </span>
+                                                <button class="delete-room-btn">
+                                                    Remove room
+                                                </button>
+                                            </div>
+
+                                            <ul class="count-list">
+                                                <li class="count-list__item">
+                                                    <span class="medium-span">
+                                                        Guests
+                                                    </span>
+                                                    <div class="count-btn-block">
+                                                        <input class="count-input" type="hidden" name="guests"
+                                                            value="1">
+                                                        <button data-action="decrease"
+                                                            class="stepper-Btn decreaseBtn disable stepper-Btn-guests"></button>
+                                                        <div class="stepper-value">1</div>
+                                                        <button data-action="increase"
+                                                            class="stepper-Btn increaseBtn stepper-Btn-guests"></button>
+                                                    </div>
+                                                </li>
+                                                <li class="count-list__item">
+                                                    <span class="medium-span">
+                                                        Rooms
+                                                    </span>
+                                                    <div class="count-btn-block">
+                                                        <input class="count-input" type="hidden" name="rooms" value="1">
+                                                        <button data-action="decrease"
+                                                            class="stepper-Btn stepper-Btn-rooms decreaseBtn disable"></button>
+                                                        <div class="stepper-value">1</div>
+                                                        <button data-action="increase"
+                                                            class="stepper-Btn stepper-Btn-rooms increaseBtn "></button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <div class="add-room-wrap">
+                                            <button type="button" class="add-room-btn">
+                                                Add room
+                                            </button>
+                                        </div>
+
+                                        <div class="update-btn-wrap">
+                                            <button type="button" class="update-count-btn">Update</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- <div class="quantity-count-field">
+                            <ul class="count-list">
+                                <li class="count-list__item">
+                                    <span class="medium-span">
+                                        Guests
+                                    </span>
+                                    <div class="count-btn-block">
+                                        <input class="count-input" type="hidden" name="guests" value="1">
+                                        <button data-action="decrease"
+                                            class="stepper-Btn decreaseBtn disable stepper-Btn-guests"></button>
+                                        <div class="stepper-value">1</div>
+                                        <button data-action="increase"
+                                            class="stepper-Btn increaseBtn stepper-Btn-guests"></button>
+                                    </div>
+                                </li>
+                                <li class="count-list__item">
+                                    <span class="medium-span">
+                                        Rooms
+                                    </span>
+                                    <div class="count-btn-block">
+                                        <input class="count-input" type="hidden" name="rooms" value="1">
+                                        <button data-action="decrease"
+                                            class="stepper-Btn stepper-Btn-rooms decreaseBtn disable"></button>
+                                        <div class="stepper-value">1</div>
+                                        <button data-action="increase"
+                                            class="stepper-Btn stepper-Btn-rooms increaseBtn "></button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div> -->
+                    </div>
+                    <button type="submit" class="order-form-Btn">
+                        Rechercher
+                    </button>
+
+                </form>
+            </div>
+        </section>
+        <section class="mobile-search-form mobile-block">
+
+            <div class="flex-block mobile-search-flex">
+                <div class="left-wrap">
+                    <span class="light-span __block">Brussels</span>
+
+                    <span class="light-span">2 Personnes, 1 Chambre ven. 21 juin - sam. 22 juin</span>
+                </div>
+                <div class="right-wrap">
+                    <button class="openFiltersBtn" id="openFiltersBtn">
+                        <img src="img/mob_filt_icon.png" class="filters-Btn-icon">
+
+
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+        <section class="page-content-section">
+            <div class="container">
+                <div class="filters-btn-flex mobile-block">
+                    <button class="selectFilterBtn" id="mobFilterOpen">
+                        <span>
+                            Filter By
+                        </span>
+                    </button>
+                    <button class="selectSortBtn" id="mobSortOpen">
+                        <span>
+                            Sort By
+                        </span>
+                    </button>
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-5 col-lg-35 desktop-block">
+                        <div class="filters-container">
+                            <div class="filters-row __first">
+                                <span class="filter-title">
+                                    Filter by
+                                </span>
+                            </div>
+                            <div class="filters-row">
+                                <span class="filter-title">
+                                    Guest Ratings
+                                </span>
+                                <ul class="guest-ratings-list">
+                                    <li class="guest-ratings-item ">
+
+                                        <a class="guest-ratings-label __red" for="guest-rating-1">0 +</a>
+                                    </li>
+                                    <li class="guest-ratings-item ">
+
+                                        <a class="guest-ratings-label __orange" for="guest-rating-2">6 +</a>
+                                    </li>
+                                    <li class="guest-ratings-item ">
+
+                                        <a class="guest-ratings-label __yellow " for="guest-rating-3">7 +</a>
+                                    </li>
+                                    <li class="guest-ratings-item ">
+
+                                        <a class="guest-ratings-label __green " for="guest-rating-4">8 +</a>
+                                    </li>
+                                    <li class="guest-ratings-item ">
+
+                                        <a class="guest-ratings-label __dark-green" for="guest-rating-5">9
+                                            +</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="filters-row">
+                                <span class="filter-title">
+                                    Start Ratings
+                                </span>
+                                <ul class="star-ratings-list">
+                                    <li class="star-ratings-item ">
+                                        <a class="star-ratings-label">1</a>
+                                    </li>
+                                    <li class="star-ratings-item">
+                                        <a class="star-ratings-label">2</a>
+                                    </li>
+                                    <li class="star-ratings-item">
+                                        <a class="star-ratings-label">3</a>
+                                    </li>
+                                    <li class="star-ratings-item">
+                                        <a class="star-ratings-label" for="star-rating-4">4</a>
+                                    </li>
+                                    <li class="star-ratings-item">
+                                        <a class="star-ratings-label" for="star-rating-5">5</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="filters-row">
+                                <span class="filter-title">
+                                    Search by property name
+                                </span>
+                                <form action="" class="search-form">
+                                    <input class="search-input" type="text" placeholder="Search here...">
+                                    <button class="search-submit-Btn" type="submit"></button>
+                                </form>
+                            </div>
+                            <div class="filters-row">
+                                <div class="accordion-container" id="propertyAccordion">
+                                    <div class="card">
+                                        <div class="card-header" id="prop-headingOne">
+                                            <button class="collapsed collapse-btn" type="button" data-toggle="collapse"
+                                                data-target="#propertyOne" aria-expanded="false"
+                                                aria-controls="propertyOne">
+                                                Property Type
+                                            </button>
+
+                                            <button class="collapsed collapse-arr-btn" type="button"
+                                                data-toggle="collapse" data-target="#propertyOne" aria-expanded="false"
+                                                aria-controls="propertyOne">
+
+                                            </button>
+                                        </div>
+                                        <div id="propertyOne" class="collapse" aria-labelledby="prop-headingOne"
+                                            data-parent="#propertyAccordion">
+                                            <div class="card-body">
+                                                <ul class="filter-tags-list">
+                                                    <li class="filter-tags-list__item">
+                                                        <div class="checkbox-tag-block">
+
+                                                            <input id="tagCheckbox-1" type="checkbox"
+                                                                class="tag-checkbox">
+                                                            <label for="tagCheckbox-1" class="tag-label"></label>
+
+                                                            <a href="" class="tag-link">
+                                                                Hotel
+                                                            </a>
+                                                        </div>
+                                                        <span class="card-span">
+                                                            66
+                                                        </span>
+                                                    </li>
+                                                    <li class="filter-tags-list__item">
+                                                        <div class="checkbox-tag-block">
+
+                                                            <input id="tagCheckbox-2" type="checkbox"
+                                                                class="tag-checkbox">
+                                                            <label for="tagCheckbox-2" class="tag-label"></label>
+
+                                                            <a href="" class="tag-link">
+                                                                Hotel
+                                                            </a>
+                                                        </div>
+                                                        <span class="card-span">
+                                                            33
+                                                        </span>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filters-row">
+                                <div class="accordion-container" id="featuresAccordion">
+                                    <div class="card">
+                                        <div class="card-header" id="features-headingOne">
+                                            <button class="collapsed collapse-btn" type="button" data-toggle="collapse"
+                                                data-target="#featuresOne" aria-expanded="false"
+                                                aria-controls="propertyOne">
+                                                Hotel Features
+                                            </button>
+
+                                            <button class="collapsed collapse-arr-btn" type="button"
+                                                data-toggle="collapse" data-target="#featuresOne" aria-expanded="false"
+                                                aria-controls="featuresOne">
+
+                                            </button>
+                                        </div>
+                                        <div id="featuresOne" class="collapse" aria-labelledby="features-headingOne"
+                                            data-parent="#featuresAccordion">
+                                            <div class="card-body">
+                                                <ul class="filter-tags-list">
+                                                    <li class="filter-tags-list__item">
+                                                        <div class="checkbox-tag-block">
+                                                            <input id="tagCheckbox-3" type="checkbox"
+                                                                class="tag-checkbox">
+
+                                                            <label for="tagCheckbox-3" class="tag-label"></label>
+
+                                                            <a href="" class="tag-link">
+                                                                Hotel
+                                                            </a>
+                                                        </div>
+                                                        <span class="card-span">
+                                                            66
+                                                        </span>
+                                                    </li>
+                                                    <li class="filter-tags-list__item">
+                                                        <div class="checkbox-tag-block">
+                                                            <input id="tagCheckbox-4" type="checkbox"
+                                                                class="tag-checkbox">
+
+                                                            <label for="tagCheckbox-4" class="tag-label"></label>
+
+                                                            <a href="" class="tag-link">
+                                                                Hotel
+                                                            </a>
+                                                        </div>
+                                                        <span class="card-span">
+                                                            33
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filters-row">
+                                <div class="accordion-container" id="themesAccordion">
+                                    <div class="card">
+                                        <div class="card-header" id="themes-headingOne">
+                                            <button class="collapsed collapse-btn" type="button" data-toggle="collapse"
+                                                data-target="#themesOne" aria-expanded="false"
+                                                aria-controls="themesOne">
+                                                Themes
+                                            </button>
+
+                                            <button class="collapsed collapse-arr-btn" type="button"
+                                                data-toggle="collapse" data-target="#themesOne" aria-expanded="false"
+                                                aria-controls="themesOne">
+
+                                            </button>
+                                        </div>
+                                        <div id="themesOne" class="collapse" aria-labelledby="themes-headingOne"
+                                            data-parent="#themesAccordion">
+                                            <div class="card-body">
+                                                Test
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="map-block">
+                            <div id="mapElem" class="map-element">
+
+                            </div>
+
+                            <div class="map-selectors-block">
+                                <div class="map-selectors-row">
+                                    <a href="" class="tag-link __interest-places">
+                                        Hotel
+                                    </a>
+                                    <input id="mapCheckbox-1" type="checkbox" class="tag-checkbox">
+
+                                    <label for="mapCheckbox-1" class="tag-label"></label>
+                                </div>
+                                <div class="map-selectors-row">
+                                    <a href="" class="tag-link __restaurant">
+                                        Restaurant
+                                    </a>
+                                    <input id="mapCheckbox-2" type="checkbox" class="tag-checkbox">
+
+                                    <label for="mapCheckbox-2" class="tag-label"></label>
+                                </div>
+                                <div class="map-selectors-row">
+                                    <a href="" class="tag-link __shopping">
+                                        Shopping
+                                    </a>
+                                    <input id="mapCheckbox-3" type="checkbox" class="tag-checkbox">
+
+                                    <label for="mapCheckbox-3" class="tag-label"></label>
+                                </div>
+                                <div class="map-selectors-row">
+                                    <a href="" class="tag-link __nightlife">
+                                        Nightlife
+                                    </a>
+                                    <input id="mapCheckbox-4" type="checkbox" class="tag-checkbox">
+
+                                    <label for="mapCheckbox-4" class="tag-label"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="near-hotels-container">
+                            <h3 class="h3-header">
+                                Hotels near Brussels
+                            </h3>
+                            <ul class="hotels-list">
+                                <li class="hotels-list__item">
+                                    <a href="" class="hotels-list__link">Hotels in Anvers</a>
+                                </li>
+                                <li class="hotels-list__item"><a href="" class="hotels-list__link">Hotels in Namur</a>
+                                </li>
+                                <li class="hotels-list__item"><a href="" class="hotels-list__link">Hotels in Gand</a>
+                                </li>
+                                <li class="hotels-list__item"><a href="" class="hotels-list__link">Hotels in Enhien</a>
+                                </li>
+                                <li class="hotels-list__item"><a href="" class="hotels-list__link">Hotels in Anvers</a>
+                                </li>
+                                <li class="hotels-list__item"><a href="" class="hotels-list__link">Hotels in Namur</a>
+                                </li>
+                                <li class="hotels-list__item"><a href="" class="hotels-list__link">Hotels in Anvers</a>
+                                </li>
+                                <li class="hotels-list__item"><a href="" class="hotels-list__link">Hotels in Gand</a>
+                                </li>
+                                <li class="hotels-list__item"><a href="" class="hotels-list__link">Hotels in Enhien</a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+                    <div class="col-sm-12 col-lg-85">
+                        <div class="hurry-container desktop-block">
+                            <div class="flex-block al-it-center">
+                                <div class="progress-bar-block">
+                                    <canvas id="cnvs" width="125" height="85" data-percent="60">
+
+                                    </canvas>
+                                </div>
+                                <div class="hurry-text-block">
+
+                                    <h2 class="hurry-span">
+                                        Hurry! Over 60% of properties are fully booked!
+                                    </h2>
+                                    <span class="simple-text">
+                                        Rooms are in high demand on your selected dates. Reserve yours now before prices
+                                        go up.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sort-container desktop-block">
+                            <div class="flex-block">
+                                <span class="sort-span">
+                                    Sort by:
+                                </span>
+                                <a href="" class="sort-link active">Best match</a>
+                                <a href="" class="sort-link">Lowest
+                                    price</a>
+                            </div>
+                        </div>
+                        <div class="offers-container">
+                            <div class="offer-block">
+                                <div class="flex-block offer-main-flex">
+                                    <div class="left-offer-col">
+                                        <div class="hotel-slider">
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="hotel-slider-nav">
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right-offer-col">
+                                        <div class="flex-block top-offer-row">
+                                            <div class="top-offer-row__left">
+                                                <h2 class="h2-header">
+                                                    The Hotel
+                                                </h2>
+                                                <span class="geo-span">
+                                                    Brussels City Centre, Brussels
+                                                </span>
+
+                                            </div>
+                                            <div class="top-offer-row__right">
+                                                <span class="offer-rate-span">
+                                                    Fabulous 8.9
+                                                </span>
+                                                <span class=" reviews-span">
+                                                    10,584 reviews
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <p class="description-p desktop-block">
+                                            The Hotel, close to the city center, is perhaps one of the most famous hotel
+                                            of Brussels. The Boulevard de Waterloo
+                                            forms part of the busy “Petite Ceinture” ringroad, but The Hotel is set back
+                                            from it and the rooms do not face directly
+                                            onto it. Close by is the Place Louise, a transport hub (Metro, trams and
+                                            buses) and focal point of the smart Avenue
+                                            Louise shopping area. Brussels’ historic centrepiece, the Grand Place, is a
+                                            walkable 1.5km to the north, and 1.5km south
+                                            is the Horta Museum, an Art Nouveau shrine.
+                                        </p>
+                                        <div class="flex-block bottom-offer-row js-between desktop-block">
+                                            <div class="block-1 flex-block al-it-center">
+                                                <span class="light-span">
+                                                    Prices starting from
+                                                </span>
+                                                <span class="starting-price-number">
+                                                    135€
+                                                </span>
+                                            </div>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="flex-block bottom-offer-row mobile-block">
+                                        <p class="description-p collapse-p">
+                                            The Hotel, close to the city center, is perhaps one of the most famous hotel
+                                            of Brussels. The Boulevard de Waterloo
+                                            forms part of the busy “Petite Ceinture” ringroad, but The Hotel is set back
+                                            from it and the rooms do not face directly
+                                            onto it. Close by is the Place Louise, a transport hub (Metro, trams and
+                                            buses) and focal point of the smart Avenue
+                                            Louise shopping area. Brussels’ historic centrepiece, the Grand Place, is a
+                                            walkable 1.5km to the north, and 1.5km south
+                                            is the Horta Museum, an Art Nouveau shrine.
+                                        </p>
+                                        <div class="block-1 flex-block">
+                                            <span class="light-span">
+                                                Prices starting from
+                                            </span>
+                                            <span class="starting-price-number">
+                                                135€
+                                            </span>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offer-block">
+                                <div class="flex-block offer-main-flex">
+                                    <div class="left-offer-col">
+                                        <div class="hotel-slider">
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="hotel-slider-nav">
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right-offer-col">
+                                        <div class="flex-block top-offer-row">
+                                            <div class="top-offer-row__left">
+                                                <h2 class="h2-header">
+                                                    The Hotel
+                                                </h2>
+                                                <span class="geo-span">
+                                                    Brussels City Centre, Brussels
+                                                </span>
+
+                                            </div>
+                                            <div class="top-offer-row__right">
+                                                <span class="offer-rate-span">
+                                                    Fabulous 8.9
+                                                </span>
+                                                <span class=" reviews-span">
+                                                    10,584 reviews
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <p class="description-p desktop-block">
+                                            The Hotel, close to the city center, is perhaps one of the most famous hotel
+                                            of Brussels. The Boulevard de Waterloo
+                                            forms part of the busy “Petite Ceinture” ringroad, but The Hotel is set back
+                                            from it and the rooms do not face directly
+                                            onto it. Close by is the Place Louise, a transport hub (Metro, trams and
+                                            buses) and focal point of the smart Avenue
+                                            Louise shopping area. Brussels’ historic centrepiece, the Grand Place, is a
+                                            walkable 1.5km to the north, and 1.5km south
+                                            is the Horta Museum, an Art Nouveau shrine.
+                                        </p>
+                                        <div class="flex-block bottom-offer-row js-between desktop-block">
+                                            <div class="block-1 flex-block al-it-center">
+                                                <span class="light-span">
+                                                    Prices starting from
+                                                </span>
+                                                <span class="starting-price-number">
+                                                    135€
+                                                </span>
+                                            </div>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="flex-block bottom-offer-row mobile-block">
+                                        <p class="description-p collapse-p">
+                                            The Hotel, close to the city center, is perhaps one of the most famous hotel
+                                            of Brussels. The Boulevard de Waterloo
+                                            forms part of the busy “Petite Ceinture” ringroad, but The Hotel is set back
+                                            from it and the rooms do not face directly
+                                            onto it. Close by is the Place Louise, a transport hub (Metro, trams and
+                                            buses) and focal point of the smart Avenue
+                                            Louise shopping area. Brussels’ historic centrepiece, the Grand Place, is a
+                                            walkable 1.5km to the north, and 1.5km south
+                                            is the Horta Museum, an Art Nouveau shrine.
+                                        </p>
+                                        <div class="block-1 flex-block">
+                                            <span class="light-span">
+                                                Prices starting from
+                                            </span>
+                                            <span class="starting-price-number">
+                                                135€
+                                            </span>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offer-block">
+                                <div class="flex-block offer-main-flex">
+                                    <div class="left-offer-col">
+                                        <div class="hotel-slider">
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="hotel-slider-nav">
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right-offer-col">
+                                        <div class="flex-block top-offer-row">
+                                            <div class="top-offer-row__left">
+                                                <h2 class="h2-header">
+                                                    The Hotel
+                                                </h2>
+                                                <span class="geo-span">
+                                                    Brussels City Centre, Brussels
+                                                </span>
+
+                                            </div>
+                                            <div class="top-offer-row__right">
+                                                <span class="offer-rate-span">
+                                                    Fabulous 8.9
+                                                </span>
+                                                <span class=" reviews-span">
+                                                    10,584 reviews
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <p class="description-p desktop-block">
+                                            The Hotel, close to the city center, is perhaps one of the most famous hotel
+                                            of Brussels. The Boulevard de Waterloo
+                                            forms part of the busy “Petite Ceinture” ringroad, but The Hotel is set back
+                                            from it and the rooms do not face directly
+                                            onto it. Close by is the Place Louise, a transport hub (Metro, trams and
+                                            buses) and focal point of the smart Avenue
+                                            Louise shopping area. Brussels’ historic centrepiece, the Grand Place, is a
+                                            walkable 1.5km to the north, and 1.5km south
+                                            is the Horta Museum, an Art Nouveau shrine.
+                                        </p>
+                                        <div class="flex-block bottom-offer-row js-between desktop-block">
+                                            <div class="block-1 flex-block al-it-center">
+                                                <span class="light-span">
+                                                    Prices starting from
+                                                </span>
+                                                <span class="starting-price-number">
+                                                    135€
+                                                </span>
+                                            </div>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="flex-block bottom-offer-row mobile-block">
+                                        <p class="description-p collapse-p">
+                                            The Hotel, close to the city center, is perhaps one of the most famous hotel
+                                            of Brussels. The Boulevard de Waterloo
+                                            forms part of the busy “Petite Ceinture” ringroad, but The Hotel is set back
+                                            from it and the rooms do not face directly
+                                            onto it. Close by is the Place Louise, a transport hub (Metro, trams and
+                                            buses) and focal point of the smart Avenue
+                                            Louise shopping area. Brussels’ historic centrepiece, the Grand Place, is a
+                                            walkable 1.5km to the north, and 1.5km south
+                                            is the Horta Museum, an Art Nouveau shrine.
+                                        </p>
+                                        <div class="block-1 flex-block">
+                                            <span class="light-span">
+                                                Prices starting from
+                                            </span>
+                                            <span class="starting-price-number">
+                                                135€
+                                            </span>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offer-block">
+                                <div class="flex-block offer-main-flex">
+                                    <div class="left-offer-col">
+                                        <div class="hotel-slider">
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="hotel-slider-nav">
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right-offer-col">
+                                        <div class="flex-block top-offer-row">
+                                            <div class="top-offer-row__left">
+                                                <h2 class="h2-header">
+                                                    The Hotel
+                                                </h2>
+                                                <span class="geo-span">
+                                                    Brussels City Centre, Brussels
+                                                </span>
+
+                                            </div>
+                                            <div class="top-offer-row__right">
+                                                <span class="offer-rate-span">
+                                                    Fabulous 8.9
+                                                </span>
+                                                <span class=" reviews-span">
+                                                    10,584 reviews
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <p class="description-p desktop-block">
+                                            The Hotel, close to the city center, is perhaps one of the most famous hotel
+                                            of Brussels. The Boulevard de Waterloo
+                                            forms part of the busy “Petite Ceinture” ringroad, but The Hotel is set back
+                                            from it and the rooms do not face directly
+                                            onto it. Close by is the Place Louise, a transport hub (Metro, trams and
+                                            buses) and focal point of the smart Avenue
+                                            Louise shopping area. Brussels’ historic centrepiece, the Grand Place, is a
+                                            walkable 1.5km to the north, and 1.5km south
+                                            is the Horta Museum, an Art Nouveau shrine.
+                                        </p>
+                                        <div class="flex-block bottom-offer-row js-between desktop-block">
+                                            <div class="block-1 flex-block al-it-center">
+                                                <span class="light-span">
+                                                    Prices starting from
+                                                </span>
+                                                <span class="starting-price-number">
+                                                    135€
+                                                </span>
+                                            </div>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="flex-block bottom-offer-row mobile-block">
+                                        <p class="description-p collapse-p">
+                                            The Hotel, close to the city center, is perhaps one of the most famous hotel
+                                            of Brussels. The Boulevard de Waterloo
+                                            forms part of the busy “Petite Ceinture” ringroad, but The Hotel is set back
+                                            from it and the rooms do not face directly
+                                            onto it. Close by is the Place Louise, a transport hub (Metro, trams and
+                                            buses) and focal point of the smart Avenue
+                                            Louise shopping area. Brussels’ historic centrepiece, the Grand Place, is a
+                                            walkable 1.5km to the north, and 1.5km south
+                                            is the Horta Museum, an Art Nouveau shrine.
+                                        </p>
+                                        <div class="block-1 flex-block">
+                                            <span class="light-span">
+                                                Prices starting from
+                                            </span>
+                                            <span class="starting-price-number">
+                                                135€
+                                            </span>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offer-block">
+                                <div class="flex-block offer-main-flex">
+                                    <div class="left-offer-col">
+                                        <div class="hotel-slider">
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="hotel-slider-nav">
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                            <div class="slider-block">
+                                                <img src="img/slider_Img.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right-offer-col">
+                                        <div class="flex-block top-offer-row">
+                                            <div class="top-offer-row__left">
+                                                <h2 class="h2-header">
+                                                    The Hotel
+                                                </h2>
+                                                <span class="geo-span">
+                                                    Brussels City Centre, Brussels
+                                                </span>
+
+                                            </div>
+                                            <div class="top-offer-row__right">
+                                                <span class="offer-rate-span">
+                                                    Fabulous 8.9
+                                                </span>
+                                                <span class=" reviews-span">
+                                                    10,584 reviews
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                        <p class="description-p desktop-block">
+                                            The Hotel, close to the city center, is perhaps one of the most famous hotel
+                                            of Brussels. The Boulevard de Waterloo
+                                            forms part of the busy “Petite Ceinture” ringroad, but The Hotel is set back
+                                            from it and the rooms do not face directly
+                                            onto it. Close by is the Place Louise, a transport hub (Metro, trams and
+                                            buses) and focal point of the smart Avenue
+                                            Louise shopping area. Brussels’ historic centrepiece, the Grand Place, is a
+                                            walkable 1.5km to the north, and 1.5km south
+                                            is the Horta Museum, an Art Nouveau shrine.
+                                        </p>
+                                        <div class="flex-block bottom-offer-row js-between desktop-block">
+                                            <div class="block-1 flex-block al-it-center">
+                                                <span class="light-span">
+                                                    Prices starting from
+                                                </span>
+                                                <span class="starting-price-number">
+                                                    135€
+                                                </span>
+                                            </div>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="flex-block bottom-offer-row mobile-block">
+                                        <p class="description-p collapse-p">
+                                            The Hotel, close to the city center, is perhaps one of the most famous hotel
+                                            of Brussels. The Boulevard de Waterloo
+                                            forms part of the busy “Petite Ceinture” ringroad, but The Hotel is set back
+                                            from it and the rooms do not face directly
+                                            onto it. Close by is the Place Louise, a transport hub (Metro, trams and
+                                            buses) and focal point of the smart Avenue
+                                            Louise shopping area. Brussels’ historic centrepiece, the Grand Place, is a
+                                            walkable 1.5km to the north, and 1.5km south
+                                            is the Horta Museum, an Art Nouveau shrine.
+                                        </p>
+                                        <div class="block-1 flex-block">
+                                            <span class="light-span">
+                                                Prices starting from
+                                            </span>
+                                            <span class="starting-price-number">
+                                                135€
+                                            </span>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-block al-it-center js-center">
+                            <button class="load-more-Btn">
+                                See More
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="useful-info-section">
+            <div class="container">
+                <div class="useful-info-container">
+                    <h2 class="h2-header">
+                        Good to know before you go
+                    </h2>
+                    <div class="flex-block useful-info__flex">
+                        <div class="useful-col__left">
+                            <div class="top-block">
+                                <span class="medium-span">
+                                    Peak-season
+                                </span>
+                                <span class="bold-span">
+                                    April
+                                </span>
+                                <span class="percent-span __increase">
+                                    +35%
+                                </span>
+                                <span class="light-span">
+                                    estimated price increases
+                                </span>
+                            </div>
+                            <div class="bottom-block">
+                                <span class="medium-span">
+                                    Off-season
+                                </span>
+                                <span class="bold-span">
+                                    January
+                                </span>
+                                <span class="percent-span __decrease">
+                                    -12%
+                                </span>
+                                <span class="light-span">
+                                    estimated price decrease
+                                </span>
+                            </div>
+                        </div>
+                        <div class="useful-col__right">
+                            <div class="top-block">
+                                <span class="medium-span">
+                                    Average price (weekdays)
+                                </span>
+                                <span class="bold-span">
+                                    115 €
+                                </span>
+                                <span class="light-span">
+                                    estimated price on the last two weeks
+                                </span>
+                            </div>
+                            <div class="bottom-block">
+                                <span class="medium-span">
+                                    Average price (weekend)
+                                </span>
+                                <span class="bold-span">
+                                    125 €
+                                </span>
+                                <span class="light-span">
+                                    estimated price on the last two weeks
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="travel-guide-section">
+            <div class="container">
+                <h2 class="h2-header">
+                    Travel guide
+                </h2>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="guide-block __cost-block">
+                            <i class="guide-block__icon">
+
+                            </i>
+                            <span class="semi-bold-span">
+                                How much does a hotel in Brussels cost?
+                            </span>
+                            <p class="description-p">
+                                If you want to pinch a few pennies during your next European city trip but aren’t too
+                                keen on sharing a hostel dorm with
+                                snoring strangers, Brussels has some modest hotel gems that prove that low-key doesn’t
+                                necessarily equal low-comfort.
+                                Keeping in mind that the capital’s rates tend to go down during weekends instead of up,
+                                these nine options lend
+                                themselves to a pocket-book-friendly getaway.
+                            </p>
+                        </div>
+                        <div class="guide-block __popular-block">
+                            <i class="guide-block__icon">
+
+                            </i>
+                            <span class="semi-bold-span">
+                                What are the most popular areas to stay in Paris?
+                            </span>
+                            <p class="description-p">
+                                If you want to pinch a few pennies during your next European city trip but aren’t too
+                                keen on sharing a hostel dorm with
+                                snoring strangers, Brussels has some modest hotel gems that prove that low-key doesn’t
+                                necessarily equal low-comfort.
+                                Keeping in mind that the capital’s rates tend to go down during weekends instead of up,
+                                these nine options lend
+                                themselves to a pocket-book-friendly getaway.
+                            </p>
+                        </div>
+                        <div class="guide-block __location-block">
+                            <i class="guide-block__icon">
+
+                            </i>
+                            <span class="semi-bold-span">
+                                How to find a hotel in the neighbourhood?
+                            </span>
+                            <p class="description-p">
+                                If you want to pinch a few pennies during your next European city trip but aren’t too
+                                keen on sharing a hostel dorm with
+                                snoring strangers, Brussels has some modest hotel gems that prove that low-key doesn’t
+                                necessarily equal low-comfort.
+                                Keeping in mind that the capital’s rates tend to go down during weekends instead of up,
+                                these nine options lend
+                                themselves to a pocket-book-friendly getaway.
+                            </p>
+                        </div>
+                        <div class="guide-block __cheap-hotel-block">
+                            <i class="guide-block__icon">
+
+                            </i>
+                            <span class="semi-bold-span">
+                                Where can I find a cheap hotel in Brussels?
+                            </span>
+                            <p class="description-p">
+                                If you want to pinch a few pennies during your next European city trip but aren’t too
+                                keen on sharing a hostel
+                                dorm with
+                                snoring strangers, Brussels has some modest hotel gems that prove that low-key doesn’t
+                                necessarily equal
+                                low-comfort.
+                                Keeping in mind that the capital’s rates tend to go down during weekends instead of up,
+                                these nine options lend
+                                themselves to a pocket-book-friendly getaway.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 flex-col">
+                        <div class="guide-img-block">
+                            <img src="img/guide_img.png" alt="" class="guide-img">
+                        </div>
+                        <div class="guide-block __luxury-hotel-block">
+                            <i class="guide-block__icon">
+
+                            </i>
+                            <span class="semi-bold-span">
+                                Where can you find a luxury hotel in Brussels?
+                            </span>
+                            <p class="description-p">
+                                If you want to pinch a few pennies during your next European city trip but aren’t too
+                                keen on sharing a hostel dorm with
+                                snoring strangers, Brussels has some modest hotel gems that prove that low-key doesn’t
+                                necessarily equal low-comfort.
+                                Keeping in mind that the capital’s rates tend to go down during weekends instead of up,
+                                these nine options lend
+                                themselves to a pocket-book-friendly getaway.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="best-things-section">
+            <div class="container">
+                <h2 class="h2-header">
+                    Best things to do in Brussels
+                </h2>
+                <div class="row">
+                    <div class="col-sm-3 col-6">
+                        <div class="best-things-block">
+                            <img class="best-things-img" src="img/img-1.png" alt="">
+                            <span class="semi-bold-span">
+                                Grand place
+                            </span>
+                            <span class="geo-span">
+                                Grand place, Brussels
+                            </span>
+                            <p class="description-p">
+                                Brussels’ magnificent Grand Place is one of the world’s most unforgettable urban
+                                ensembles. Oddly hidden, the enclosed
+                                cobblestone square is only revealed as you enter on foot from one of six narrow side
+                                alleys: Rue…
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-6">
+                        <div class="best-things-block">
+                            <img class="best-things-img" src="img/img-1.png" alt="">
+                            <span class="semi-bold-span">
+                                Grand place
+                            </span>
+                            <span class="geo-span">
+                                Grand place, Brussels
+                            </span>
+                            <p class="description-p">
+                                Brussels’ magnificent Grand Place is one of the world’s most unforgettable urban
+                                ensembles. Oddly hidden, the enclosed
+                                cobblestone square is only revealed as you enter on foot from one of six narrow side
+                                alleys: Rue…
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-6">
+                        <div class="best-things-block">
+                            <img class="best-things-img" src="img/img-1.png" alt="">
+                            <span class="semi-bold-span">
+                                Grand place
+                            </span>
+                            <span class="geo-span">
+                                Grand place, Brussels
+                            </span>
+                            <p class="description-p">
+                                Brussels’ magnificent Grand Place is one of the world’s most unforgettable urban
+                                ensembles. Oddly hidden, the enclosed
+                                cobblestone square is only revealed as you enter on foot from one of six narrow side
+                                alleys: Rue…
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-6">
+                        <div class="best-things-block">
+                            <img class="best-things-img" src="img/img-1.png" alt="">
+                            <span class="semi-bold-span">
+                                Grand place
+                            </span>
+                            <span class="geo-span">
+                                Grand place, Brussels
+                            </span>
+                            <p class="description-p">
+                                Brussels’ magnificent Grand Place is one of the world’s most unforgettable urban
+                                ensembles. Oddly hidden, the enclosed
+                                cobblestone square is only revealed as you enter on foot from one of six narrow side
+                                alleys: Rue…
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="additional-info-section">
+            <div class="container">
+                <div class="first-row">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-35 center-col">
+                            <div class="recommendation-block">
+                                <div class="recommendation__left-col">
+                                    <span class="semi-bold-span">
+                                        Month
+                                    </span>
+
+                                    <ul class="months-list">
+                                        <li class="month-list__item"><span class="medium-span">January</span></li>
+                                        <li class="month-list__item"><span class="medium-span">February</span></li>
+                                        <li class="month-list__item"><span class="medium-span">March</span></li>
+                                        <li class="month-list__item"><span class="medium-span">April</span></li>
+                                        <li class="month-list__item"><span class="medium-span">May</span></li>
+                                        <li class="month-list__item"><span class="medium-span">June</span></li>
+                                        <li class="month-list__item"><span class="medium-span">July</span></li>
+                                        <li class="month-list__item"><span class="medium-span">August</span></li>
+                                        <li class="month-list__item"><span class="medium-span">September</span></li>
+                                        <li class="month-list__item"><span class="medium-span">October</span></li>
+                                        <li class="month-list__item"><span class="medium-span">November</span></li>
+                                        <li class="month-list__item"><span class="medium-span">December</span></li>
+                                    </ul>
+                                </div>
+                                <div class="recommendation__right-col">
+                                    <span class="semi-bold-span">
+                                        Recommandation
+
+                                    </span>
+                                    <ul class="recommendation-list">
+                                        <li class="recommendation-list__item">
+                                            <span class="recommendation-list__span __v-unfavorable">
+                                                Very unfavorable
+                                            </span>
+                                        </li>
+                                        <li class="recommendation-list__item"><span
+                                                class="recommendation-list__span __unfavorable">Unfavorable</span>
+                                        </li>
+                                        <li class="recommendation-list__item"><span
+                                                class="recommendation-list__span __average">Average</span>
+                                        </li>
+                                        <li class="recommendation-list__item">
+                                            <span class="recommendation-list__span __favorable">Favorable</span>
+                                        </li>
+                                        <li class="recommendation-list__item"><span
+                                                class="recommendation-list__span __v-favorable">Very Favorable</span>
+                                        </li>
+
+                                        <li class="recommendation-list__item">
+                                            <span class="recommendation-list__span __v-unfavorable">
+                                                Very unfavorable
+                                            </span>
+                                        </li>
+                                        <li class="recommendation-list__item"><span
+                                                class="recommendation-list__span __unfavorable">Unfavorable</span>
+                                        </li>
+                                        <li class="recommendation-list__item"><span
+                                                class="recommendation-list__span __average">Average</span>
+                                        </li>
+                                        <li class="recommendation-list__item">
+                                            <span class="recommendation-list__span __favorable">Favorable</span>
+                                        </li>
+                                        <li class="recommendation-list__item"><span
+                                                class="recommendation-list__span __v-favorable">Very Favorable</span>
+                                        </li>
+                                        <li class="recommendation-list__item"><span
+                                                class="recommendation-list__span __average">Average</span>
+                                        </li>
+                                        <li class="recommendation-list__item">
+                                            <span class="recommendation-list__span __favorable">Favorable</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-85">
+                            <ul class="nav tabs-nav" id="chartTabs" role="tablist">
+                                <li class="tab-item">
+                                    <a class="tab-link active" id="temperature-tab" data-toggle="tab"
+                                        href="#temperature" role="tab" aria-controls="temperature"
+                                        aria-selected="true">Temperature</a>
+                                </li>
+                                <li class="tab-item">
+                                    <a class="tab-link" id="sunlighting-tab" data-toggle="tab" href="#sunlighting"
+                                        role="tab" aria-controls="sunlighting" aria-selected="false">Sunlighting</a>
+                                </li>
+                                <li class="tab-item">
+                                    <a class="tab-link" id="contact-tab" data-toggle="tab" href="#raining" role="tab"
+                                        aria-controls="raining" aria-selected="false">Raining</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="chartTabsContent">
+                                <div class="tab-pane fade show active" id="temperature" role="tabpanel"
+                                    aria-labelledby="temperature-tab">
+                                    <div class="line-chart-container">
+                                        <canvas id="barChart-3" class="line-chart"></canvas>
+                                    </div>
+
+                                </div>
+                                <div class="tab-pane fade" id="sunlighting" role="tabpanel"
+                                    aria-labelledby="sunlighting-tab">
+                                    2</div>
+                                <div class="tab-pane fade" id="raining" role="tabpanel" aria-labelledby="raining-tab">
+                                    3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-row">
+                    <h2 class="h2-header">
+                        Hotel recommendations
+                    </h2>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="r-offers-block  __budget">
+                                <div class="heading-block">
+                                    <i class="r-offers__icon">
+
+                                    </i>
+                                    <span class="bold-span">
+                                        If you're on a budget
+                                    </span>
+                                </div>
+                                <div class="r-offers-container">
+                                    <div class="r-offers-block__row">
+
+                                        <div class="r-offers__left-col">
+                                            <img src="img/slider_Img.png" alt="">
+                                        </div>
+                                        <div class="r-offers__right-col">
+                                            <span class="semi-bold-span">
+                                                Hotel San Regis
+                                            </span>
+                                            <span class="offer-rate-span">
+                                                Fabulous 8.9
+                                            </span>
+
+                                            <span class="medium-span __mg-15">
+                                                From
+                                                <span class="semi-bold-span __inline">
+                                                    65€
+                                                </span>
+                                            </span>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="r-offers-block__row">
+
+                                        <div class="r-offers__left-col">
+                                            <img src="img/slider_Img.png" alt="">
+                                        </div>
+                                        <div class="r-offers__right-col">
+                                            <span class="semi-bold-span">
+                                                Hotel San Regis
+                                            </span>
+                                            <span class="offer-rate-span">
+                                                Fabulous 8.9
+                                            </span>
+
+                                            <span class="medium-span __mg-15">
+                                                From
+                                                <span class="semi-bold-span __inline">
+                                                    65€
+                                                </span>
+                                            </span>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="r-offers-block__row">
+
+                                        <div class="r-offers__left-col">
+                                            <img src="img/slider_Img.png" alt="">
+                                        </div>
+                                        <div class="r-offers__right-col">
+                                            <span class="semi-bold-span">
+                                                Hotel San Regis
+                                            </span>
+                                            <span class="offer-rate-span">
+                                                Fabulous 8.9
+                                            </span>
+
+                                            <span class="medium-span __mg-15">
+                                                From
+                                                <span class="semi-bold-span __inline">
+                                                    65€
+                                                </span>
+                                            </span>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="r-offers-block __comfy">
+                                <div class="heading-block">
+                                    <i class="r-offers__icon">
+
+                                    </i>
+                                    <span class="bold-span">
+                                        For a comfy room
+                                    </span>
+                                </div>
+                                <div class="r-offers-container">
+                                    <div class="r-offers-block__row">
+
+                                        <div class="r-offers__left-col">
+                                            <img src="img/slider_Img.png" alt="">
+                                        </div>
+                                        <div class="r-offers__right-col">
+                                            <span class="semi-bold-span">
+                                                Hotel San Regis
+                                            </span>
+                                            <span class="offer-rate-span">
+                                                Fabulous 8.9
+                                            </span>
+
+                                            <span class="medium-span __mg-15">
+                                                From
+                                                <span class="semi-bold-span __inline">
+                                                    65€
+                                                </span>
+                                            </span>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="r-offers-block__row">
+
+                                        <div class="r-offers__left-col">
+                                            <img src="img/slider_Img.png" alt="">
+                                        </div>
+                                        <div class="r-offers__right-col">
+                                            <span class="semi-bold-span">
+                                                Hotel San Regis
+                                            </span>
+                                            <span class="offer-rate-span">
+                                                Fabulous 8.9
+                                            </span>
+
+                                            <span class="medium-span __mg-15">
+                                                From
+                                                <span class="semi-bold-span __inline">
+                                                    65€
+                                                </span>
+                                            </span>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="r-offers-block__row">
+
+                                        <div class="r-offers__left-col">
+                                            <img src="img/slider_Img.png" alt="">
+                                        </div>
+                                        <div class="r-offers__right-col">
+                                            <span class="semi-bold-span">
+                                                Hotel San Regis
+                                            </span>
+                                            <span class="offer-rate-span">
+                                                Fabulous 8.9
+                                            </span>
+
+                                            <span class="medium-span __mg-15">
+                                                From
+                                                <span class="semi-bold-span __inline">
+                                                    65€
+                                                </span>
+                                            </span>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="r-offers-block __best">
+                                <div class="heading-block">
+                                    <i class="r-offers__icon">
+
+                                    </i>
+                                    <span class="bold-span">
+                                        Only the best
+                                    </span>
+                                </div>
+                                <div class="r-offers-container">
+                                    <div class="r-offers-block__row">
+
+                                        <div class="r-offers__left-col">
+                                            <img src="img/slider_Img.png" alt="">
+                                        </div>
+                                        <div class="r-offers__right-col">
+                                            <span class="semi-bold-span">
+                                                Hotel San Regis
+                                            </span>
+                                            <span class="offer-rate-span">
+                                                Fabulous 8.9
+                                            </span>
+
+                                            <span class="medium-span __mg-15">
+                                                From
+                                                <span class="semi-bold-span __inline">
+                                                    65€
+                                                </span>
+                                            </span>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="r-offers-block__row">
+
+                                        <div class="r-offers__left-col">
+                                            <img src="img/slider_Img.png" alt="">
+                                        </div>
+                                        <div class="r-offers__right-col">
+                                            <span class="semi-bold-span">
+                                                Hotel San Regis
+                                            </span>
+                                            <span class="offer-rate-span">
+                                                Fabulous 8.9
+                                            </span>
+
+                                            <span class="medium-span __mg-15">
+                                                From
+                                                <span class="semi-bold-span __inline">
+                                                    65€
+                                                </span>
+                                            </span>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="r-offers-block__row">
+
+                                        <div class="r-offers__left-col">
+                                            <img src="img/slider_Img.png" alt="">
+                                        </div>
+                                        <div class="r-offers__right-col">
+                                            <span class="semi-bold-span">
+                                                Hotel San Regis
+                                            </span>
+                                            <span class="offer-rate-span">
+                                                Fabulous 8.9
+                                            </span>
+
+                                            <span class="medium-span __mg-15">
+                                                From
+                                                <span class="semi-bold-span __inline">
+                                                    65€
+                                                </span>
+                                            </span>
+                                            <a href="" target="_blank" class="offer-target-link">
+                                                <span>
+                                                    Voir l'offre
+                                                </span>
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="third-row">
+                    <div class="container">
+                        <h2 class="h2-header">
+                            What's the best moment to book your hotel?
+                        </h2>
+                        <div class="flex-block bar-charts-flex">
+                            <div class="bar-chart-container">
+                                <div class="bar-chart-wrap">
+                                    <canvas id="barChart"></canvas>
+                                </div>
+
+                            </div>
+                            <div class="bar-chart-container">
+                                <div class="bar-chart-wrap">
+                                    <canvas id="barChart-2"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div id="filtersContainer" class="mob-filters-container mobile-block">
+
+            <div class="custom-container">
+                <div class="filters-content-flex">
+                    <div class="filters-content__t-row">
+                        <span class="semi-bold-span">
+                            Filter By
+                        </span>
+                        <button class="closeBtn" id="closeMobFilters">
+
+                        </button>
+                    </div>
+                    <div class="filters-content__row">
+                        <span class="filter-title">
+                            Guest Ratings
+                        </span>
+                        <ul class="guest-ratings-list">
+                            <li class="guest-ratings-item ">
+
+                                <a class="guest-ratings-label __red" for="guest-rating-1">0 +</a>
+                            </li>
+                            <li class="guest-ratings-item ">
+
+                                <a class="guest-ratings-label __orange" for="guest-rating-2">6 +</a>
+                            </li>
+                            <li class="guest-ratings-item ">
+
+                                <a class="guest-ratings-label __yellow " for="guest-rating-3">7 +</a>
+                            </li>
+                            <li class="guest-ratings-item ">
+
+                                <a class="guest-ratings-label __green " for="guest-rating-4">8 +</a>
+                            </li>
+                            <li class="guest-ratings-item ">
+
+                                <a class="guest-ratings-label __dark-green" for="guest-rating-5">9
+                                    +</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="filters-content__row">
+                        <span class="filter-title">
+                            Start Ratings
+                        </span>
+                        <ul class="star-ratings-list">
+                            <li class="star-ratings-item ">
+                                <a class="star-ratings-label">1</a>
+                            </li>
+                            <li class="star-ratings-item">
+                                <a class="star-ratings-label">2</a>
+                            </li>
+                            <li class="star-ratings-item">
+                                <a class="star-ratings-label">3</a>
+                            </li>
+                            <li class="star-ratings-item">
+                                <a class="star-ratings-label" for="star-rating-4">4</a>
+                            </li>
+                            <li class="star-ratings-item">
+                                <a class="star-ratings-label" for="star-rating-5">5</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="filters-content__row"><span class="filter-title">
+                            Search by property name
+                        </span>
+                        <form action="" class="search-form">
+                            <input class="search-input" type="text" placeholder="Search here...">
+                            <button class="search-submit-Btn" type="submit"></button>
+                        </form>
+                    </div>
+
+                    <div class="filters-content__row">
+                        <div class="accordion-container" id="propertyAccordion">
+                            <div class="card">
+                                <div class="card-header" id="prop-headingOne">
+                                    <button class="collapsed collapse-btn" type="button" data-toggle="collapse"
+                                        data-target="#propertyOne" aria-expanded="false" aria-controls="propertyOne">
+                                        Property Type
+                                    </button>
+
+                                    <button class="collapsed collapse-arr-btn" type="button" data-toggle="collapse"
+                                        data-target="#propertyOne" aria-expanded="false" aria-controls="propertyOne">
+
+                                    </button>
+                                </div>
+                                <div id="propertyOne" class="collapse" aria-labelledby="prop-headingOne"
+                                    data-parent="#propertyAccordion">
+                                    <div class="card-body">
+                                        <ul class="filter-tags-list">
+                                            <li class="filter-tags-list__item">
+                                                <div class="checkbox-tag-block">
+
+                                                    <input id="tagCheckbox-1" type="checkbox" class="tag-checkbox">
+                                                    <label for="tagCheckbox-1" class="tag-label"></label>
+
+                                                    <a href="" class="tag-link">
+                                                        Hotel
+                                                    </a>
+                                                </div>
+                                                <span class="card-span">
+                                                    66
+                                                </span>
+                                            </li>
+                                            <li class="filter-tags-list__item">
+                                                <div class="checkbox-tag-block">
+
+                                                    <input id="tagCheckbox-2" type="checkbox" class="tag-checkbox">
+                                                    <label for="tagCheckbox-2" class="tag-label"></label>
+
+                                                    <a href="" class="tag-link">
+                                                        Hotel
+                                                    </a>
+                                                </div>
+                                                <span class="card-span">
+                                                    33
+                                                </span>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filters-content__row">
+                        <div class="accordion-container" id="featuresAccordion">
+                            <div class="card">
+                                <div class="card-header" id="features-headingOne">
+                                    <button class="collapsed collapse-btn" type="button" data-toggle="collapse"
+                                        data-target="#featuresOne" aria-expanded="false" aria-controls="propertyOne">
+                                        Hotel Features
+                                    </button>
+
+                                    <button class="collapsed collapse-arr-btn" type="button" data-toggle="collapse"
+                                        data-target="#featuresOne" aria-expanded="false" aria-controls="featuresOne">
+
+                                    </button>
+                                </div>
+                                <div id="featuresOne" class="collapse" aria-labelledby="features-headingOne"
+                                    data-parent="#featuresAccordion">
+                                    <div class="card-body">
+                                        <ul class="filter-tags-list">
+                                            <li class="filter-tags-list__item">
+                                                <div class="checkbox-tag-block">
+                                                    <input id="tagCheckbox-3" type="checkbox" class="tag-checkbox">
+
+                                                    <label for="tagCheckbox-3" class="tag-label"></label>
+
+                                                    <a href="" class="tag-link">
+                                                        Hotel
+                                                    </a>
+                                                </div>
+                                                <span class="card-span">
+                                                    66
+                                                </span>
+                                            </li>
+                                            <li class="filter-tags-list__item">
+                                                <div class="checkbox-tag-block">
+                                                    <input id="tagCheckbox-4" type="checkbox" class="tag-checkbox">
+
+                                                    <label for="tagCheckbox-4" class="tag-label"></label>
+
+                                                    <a href="" class="tag-link">
+                                                        Hotel
+                                                    </a>
+                                                </div>
+                                                <span class="card-span">
+                                                    33
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filters-content__row">
+                        <div class="accordion-container" id="themesAccordion">
+                            <div class="card">
+                                <div class="card-header" id="themes-headingOne">
+                                    <button class="collapsed collapse-btn" type="button" data-toggle="collapse"
+                                        data-target="#themesOne" aria-expanded="false" aria-controls="themesOne">
+                                        Themes
+                                    </button>
+
+                                    <button class="collapsed collapse-arr-btn" type="button" data-toggle="collapse"
+                                        data-target="#themesOne" aria-expanded="false" aria-controls="themesOne">
+
+                                    </button>
+                                </div>
+                                <div id="themesOne" class="collapse" aria-labelledby="themes-headingOne"
+                                    data-parent="#themesAccordion">
+                                    <div class="card-body">
+                                        Test
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="mapOpenBtn">
+                    <span>
+                        Map
+                    </span>
+                </button>
+
+                <div class="map-mobile-container">
+                    <button class="closeBtn" id="closeMap">
+
+                    </button>
+                    <div id="mapElem-2" class="map-element__2">
+
+                    </div>
+                    <div class="map-selectors-block">
+                        <div class="map-selectors-row">
+                            <a href="" class="tag-link __interest-places">
+                                Hotel
+                            </a>
+                            <input id="m-mapCheckbox-1" type="checkbox" class="tag-checkbox">
+
+                            <label for="m-mapCheckbox-1" class="tag-label"></label>
+                        </div>
+                        <div class="map-selectors-row">
+                            <a href="" class="tag-link __restaurant">
+                                Restaurant
+                            </a>
+                            <input id="m-mapCheckbox-2" type="checkbox" class="tag-checkbox">
+
+                            <label for="m-mapCheckbox-2" class="tag-label"></label>
+                        </div>
+                        <div class="map-selectors-row">
+                            <a href="" class="tag-link __shopping">
+                                Shopping
+                            </a>
+                            <input id="m-mapCheckbox-3" type="checkbox" class="tag-checkbox">
+
+                            <label for="m-mapCheckbox-3" class="tag-label"></label>
+                        </div>
+                        <div class="map-selectors-row">
+                            <a href="" class="tag-link __nightlife">
+                                Nightlife
+                            </a>
+                            <input id="m-mapCheckbox-4" type="checkbox" class="tag-checkbox">
+
+                            <label for="m-mapCheckbox-4" class="tag-label"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="submitMobFiltersBtn">
+                Rechercher
+            </button>
+        </div>
+        <div id="sortContainer" class="mob-filters-container mobile-block">
+            <div class="custom-container">
+                <div class="filters-content-flex">
+                    <div class="filters-content__t-row">
+                        <span class="semi-bold-span">
+                            Sort By
+                        </span>
+                        <button class="closeBtn" id="closeSortFilters">
+
+                        </button>
+                    </div>
+                    <div class="sort-select-row active">
+                        <div class="selector-point">
+
+                        </div>
+                        <span class="semi-bold-span">Best Match</span>
+                    </div>
+                    <div class="sort-select-row">
+                        <div class="selector-point">
+
+                        </div>
+                        <span class="semi-bold-span">Lowest Price</span>
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="mobile-filters-container mobile-block">
+            <div class="custom-container">
+                <div class="mobile-filters-container__flex">
+                    <div class="cities-wrap">
+                        <input type="text" class="cities-input" placeholder="Bruxelles">
+                        <a class="searchBtn" href="#">
+
+                        </a>
+                    </div>
+                    <div class="datepicker-wrap">
+                        <input type="text" id="m-datepicker" class="datepicker-input" placeholder="ven. 21 juin">
+                    </div>
+                    <div class="datepicker-wrap">
+                        <input type="text" id="m-datepicker-2" class="datepicker-input" placeholder="sam. 22 juin">
+                    </div>
+
+                    <div class="quantity-dropdown">
+                        <button class="dropdown-toggle count-dropdown-Btn" type="button" id="countBtn"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="quantity-guest-count">1</span> <span
+                                class="quantity-guest-span medium-span">Guest</span>,
+                            <span class="quantity-room-count">
+                                1
+                            </span>
+                            <span class="quantity-room-span medium-span">
+                                Room
+                            </span>
+                        </button>
+
+
+
+
+                        <div class="quantity-count-field">
+                            <ul class="count-list">
+                                <li class="count-list__item">
+                                    <span class="medium-span">
+                                        Guests
+                                    </span>
+                                    <div class="count-btn-block">
+                                        <input class="count-input" type="hidden" name="guests" value="1">
+                                        <button data-action="decrease"
+                                            class="stepper-Btn decreaseBtn disable stepper-Btn-guests"></button>
+                                        <div class="stepper-value">1</div>
+                                        <button data-action="increase"
+                                            class="stepper-Btn increaseBtn stepper-Btn-guests"></button>
+                                    </div>
+                                </li>
+                                <li class="count-list__item">
+                                    <span class="medium-span">
+                                        Rooms
+                                    </span>
+                                    <div class="count-btn-block">
+                                        <input class="count-input" type="hidden" name="rooms" value="1">
+                                        <button data-action="decrease"
+                                            class="stepper-Btn stepper-Btn-rooms decreaseBtn disable"></button>
+                                        <div class="stepper-value">1</div>
+                                        <button data-action="increase"
+                                            class="stepper-Btn stepper-Btn-rooms increaseBtn "></button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="mobile-search-buttons-flex">
+                        <button class="closeMobSearch" id="closeMobSearch">
+                            Close
+                        </button>
+                        <button class="submitSearchBtn">
+                            Search
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="flex-block js-between desktop-block">
+                <a href="/" class="footer-link">
+                    <img src="img/logo.png" alt="" class="logo-img">
+                </a>
+                <nav class="footer-navbar">
+                    <ul class="footer-nav-list">
+                        <li class="list-item"><a href="" class="footer-nav-link">About Us</a></li>
+                        <li class="list-item"><a href="" class="footer-nav-link">Privacy Policy</a></li>
+                        <li class="list-item"><a href="" class="footer-nav-link">Terms of Use</a></li>
+                        <li class="list-item"><a href="" class="footer-nav-link">Hotels FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <span class="coopyright-span mobile-block">
+                FindHotel BV - Nieuwe Looiersdwarsstraat 9, 1017 TZ Amsterdam (NL)
+            </span>
+        </div>
+    </footer>
+    <script src="js/moment.min.js"></script>
+    <script src="js/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js">
+    </script>
+    <script src="js/bootstrap.min.js">
+    </script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/user.js"></script>
+</body>
+
+</html>
